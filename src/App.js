@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Todo from './component/Todo';
+import './component/todo.scss';
+// import Counter from './component/counter';
+// import Forms from './component/Forms';
+// import List from './component/List';
+// import Popupbox from './component/popupbox';
+// import UncontrolledComponents from './component/UncontrolledComponents';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Counter />
+      <Popupbox />
+      <Forms />
+      <UncontrolledComponents /> 
+      <List /> */}
+      <Todo />
     </div>
   );
 }
